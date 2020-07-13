@@ -95,7 +95,7 @@ if (isset($_REQUEST['profile_id']))
                 <div class="form-group">
                     <div class="col-sm-4">
                         <input type="hidden" name="profile_id" value="<?php echo $profile->profile_id; ?>">
-                        <input class="btn btn-primary" type="submit" name="" value="Delete" onclick="return confirmDelete();">
+                        <input class="btn btn-primary" type="submit" name="delete" value="Delete" onclick="return confirmDelete();">
                         <input class="btn btn-default" type="submit" name="cancel" value="Cancel">
                     </div>
                 </div>
